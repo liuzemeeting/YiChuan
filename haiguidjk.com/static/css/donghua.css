@@ -1,0 +1,134 @@
+.delay01 {
+    -webkit-transition-delay: .06s !important;
+            transition-delay: .06s !important;
+  }
+  
+  .delay02 {
+    -webkit-transition-delay: .09s !important;
+            transition-delay: .09s !important;
+  }
+  
+  .delay03 {
+    -webkit-transition-delay: .12s !important;
+            transition-delay: .12s !important;
+  }
+  
+  .delay04 {
+    -webkit-transition-delay: .18s !important;
+            transition-delay: .18s !important;
+  }
+  
+  .delay05 {
+    -webkit-transition-delay: .23s !important;
+            transition-delay: .23s !important;
+  }
+  
+  .delay06 {
+    -webkit-transition-delay: .28s !important;
+            transition-delay: .28s !important;
+  }
+  
+  .delay07 {
+    -webkit-transition-delay: .33s !important;
+            transition-delay: .33s !important;
+  }
+  
+  .delay08 {
+    -webkit-transition-delay: .38s !important;
+            transition-delay: .38s !important;
+  }
+  
+  .delay09 {
+    -webkit-transition-delay: .43s !important;
+            transition-delay: .43s !important;
+  }
+  
+  .delay7 {
+    -webkit-transition-delay: .7s !important;
+            transition-delay: .7s !important;
+  }
+  
+  .delay9 {
+    -webkit-transition-delay: .9s !important;
+            transition-delay: .9s !important;
+  }
+.js-m {
+    opacity: 0;
+    -webkit-transform: translate(30px, 0);
+        -ms-transform: translate(30px, 0);
+            transform: translate(30px, 0);
+    -webkit-transition: all 1s ease;
+            transition: all 1s ease;
+  }
+  .js-m.animate {
+    opacity: 1 !important;
+    -webkit-transform: translate(0, 0px) !important;
+        -ms-transform: translate(0, 0px) !important;
+            transform: translate(0, 0px) !important;
+  }
+  .js-m.animate {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  .js-m.animate-left {
+    opacity: 0;
+    -webkit-transform: translate(-60px, 0px);
+        -ms-transform: translate(-60px, 0px);
+            transform: translate(-60px, 0px);
+    -webkit-transition: .8s ease-in-out;
+            transition: .8s ease-in-out;
+  }
+  .js-m.animate-left2 {
+    opacity: 0;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-transition: .8s ease-in-out;
+            transition: .8s ease-in-out;
+  }
+  .js-m.animate-right100 {
+    opacity: 0;
+    -webkit-transform: translate(100px, 0px);
+        -ms-transform: translate(100px, 0px);
+            transform: translate(100px, 0px);
+    -webkit-transition: .5s ease-in-out;
+            transition: .5s ease-in-out;
+  }
+  
+  .js-m.animate-right50 {
+    opacity: 0;
+    -webkit-transform: translate(50px, 0px);
+        -ms-transform: translate(50px, 0px);
+            transform: translate(50px, 0px);
+    -webkit-transition: opacity 0.8s cubic-bezier(0.32, 0.6, 0.4, 1.21), -webkit-transform 0.8s cubic-bezier(0.32, 0.6, 0.4, 1.21);
+            transition: opacity 0.8s cubic-bezier(0.32, 0.6, 0.4, 1.21), transform 0.8s cubic-bezier(0.32, 0.6, 0.4, 1.21);
+  }
+  
+  .js-m.animate-right2 {
+    opacity: 0;
+    -webkit-transform: translate(80px, 0px);
+        -ms-transform: translate(80px, 0px);
+            transform: translate(80px, 0px);
+    -webkit-transition: opacity 1.2s cubic-bezier(0.32, 0.6, 0.4, 1.21), -webkit-transform 1.2s cubic-bezier(0.32, 0.6, 0.4, 1.21);
+            transition: opacity 1.2s cubic-bezier(0.32, 0.6, 0.4, 1.21), transform 1.2s cubic-bezier(0.32, 0.6, 0.4, 1.21);
+  }
+  
+  .js-m.animate-top {
+    opacity: 0;
+    -webkit-transform: translate(0, 50px);
+        -ms-transform: translate(0, 50px);
+            transform: translate(0, 50px);
+    -webkit-transition: .6s ease-in-out;
+            transition: .6s ease-in-out;
+  }
+  
+  .js-m.animate-bottom {
+    opacity: 0;
+    -webkit-transform: translate(0, -1.5rem);
+        -ms-transform: translate(0, -1.5rem);
+            transform: translate(0, -1.5rem);
+    -webkit-transition: 0.8s cubic-bezier(0.32, 0.6, 0.4, 1.21);
+            transition: 0.8s cubic-bezier(0.32, 0.6, 0.4, 1.21);
+  }
